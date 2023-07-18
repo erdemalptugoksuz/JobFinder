@@ -1,3 +1,14 @@
 import {StyleSheet} from 'react-native';
 
-export default StyleSheet.create({});
+import {COLORS, SIZES} from '../../constants';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.lightWhite,
+  },
+  innerContainer: {
+    flex: 1,
+    padding: SIZES.medium,
+  },
+});
