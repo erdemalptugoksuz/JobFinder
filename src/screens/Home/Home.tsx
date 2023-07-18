@@ -6,6 +6,7 @@ import {Welcome, PopularJobs, NearbyJobs} from '../../components';
 
 const Home = ({navigation}: any) => {
   const {container, innerContainer} = styles;
+
   return (
     <SafeAreaView style={container}>
       <ScrollView showsVerticalScrollIndicator={false}>
