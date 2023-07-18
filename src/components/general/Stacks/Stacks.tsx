@@ -3,8 +3,8 @@ import {TouchableOpacity, Text} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Icon from 'react-native-vector-icons/Feather';
 
-import {Home, JobDetails, Search} from '../../screens';
-import {COLORS} from '../../constants';
+import {Home, JobDetails, Search} from '../../../screens';
+import {COLORS} from '../../../constants';
 
 const Stack = createNativeStackNavigator();
 
